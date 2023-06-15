@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+}
+
+#generarPaleta{
+    width: 9rem;
+    height: 3rem;
+
+    background-color: rgb(83, 83, 83);
+
+    margin-bottom: 2rem;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: rgb(48, 48, 48) 0px 2px;
+
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: inset rgb(48, 48, 48) 0px -3px;
+}
+
+#generarPaleta:active{
+    box-shadow: inset rgb(48, 48, 48) 0px 3px;
+    text-shadow: rgb(48, 48, 48) 0px -2px;
+
+}
+
+#contenedorColores{
+    height: 80%;
+    width: 80%;
+
+    display: flex;
+
+    background-color: rgb(202, 202, 202);;
+}
+
+.color{
+    height: 100%;
+    width: 25%;
+}
