@@ -42,5 +42,9 @@ boton.addEventListener('click', () => {
     contenedor.appendChild(color4);
     color4.classList.add("color");
     color4.style.backgroundColor = RandomColor()
+
+    boton.style.backgroundColor = color2.style.backgroundColor
 })
+
+// var randomColor = Math.floor(Math.random()*16777215).toString(16);
 
